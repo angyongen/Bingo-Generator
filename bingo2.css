@@ -1,0 +1,17 @@
+.bingo {
+	background-color: rgb(116, 204, 190);
+	color: black;
+	border-collapse: separate;
+	border-spacing: 0.05em;
+	font-weight: bold;
+}
+.header {
+	color: white;
+	border-collapse: separate;
+	border-spacing: 0.05em;
+	font-weight: bold;
+}
+.num {
+	background-color: white;
+	color: black;
+}

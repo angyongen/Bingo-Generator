@@ -1,0 +1,34 @@
+.bingo:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 0.1em;
+  left: 0.1em;
+  right: 0.1em;
+  bottom: 0.1em;
+  background-color: rgb(240, 20, 0);
+  border: 0.2em solid rgb(240, 20, 0);
+	border-radius: 0.3em;
+}
+.bingo {
+	position: relative;
+	background-color: rgb(240, 20, 0);
+	color: black;
+	border-collapse: separate;
+	border-spacing: 0.1em;
+	border-radius: 0.5em;
+	border: 0.1em solid rgb(240, 20, 0);
+	padding: 0.3em;
+	background-clip: content-box;
+}
+.header {
+	color: white;
+	border-collapse: separate;
+	border-spacing: 0.05em;
+}
+.num {
+	background-color: white;
+	color: black;
+	border-radius: 0.3em;
+	padding: 0.1em;
+}

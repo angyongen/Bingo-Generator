@@ -1,0 +1,34 @@
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		td {text-align: center; padding: 0}
+		.setting {display: inline-block; border: 1px solid black;}
+		.bingo {display: inline-block; margin: 1px; font-family: Arial, Helvetica, sans-serif;}
+		.bingo .header {font-size: inherit;}
+		.header {margin: auto;}
+		@media print {#menu {display: none} #printwarning{background-color: white;}}
+		#printwarning {color: white}
+		#menu {position: sticky;text-align: center; z-index: 1; ;opacity: 0.85; background-color: rgb(236,242,255)}
+		input {width: 7em;}
+		input[type="number"] {width: 3em;}
+		#bingoContainer {
+			width: 100%;
+			text-align:center;
+		}
+	</style>
+	<style title="bingoSize">.bingo {font-size: 2em;}</style>
+	<link id="bingoStyle" rel="stylesheet" type="text/css" href="bingo1.css">
+
+	<script src="generator.js">//Provides GenerateTable</script>
+	<script src="elements.js" defer>//Provides bingoContainer, menuElement, SwitchBingoStyle and ChangeBingoSize for ui.js</script>
+	<script src="ui.js" defer></script> 
+	<script src="test.js" defer></script>
+</head>
+<body>
+	<div id="menu">
+		<div id="displaymenu"></div>
+		<div id="generationmenu"></div>
+	</div>
+	<div id="printwarning">Enable background graphics when printing for best results</div>
+	<div id="bingoContainer"></div>
+</body>

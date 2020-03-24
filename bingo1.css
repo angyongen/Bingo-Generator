@@ -1,0 +1,38 @@
+.bingo {
+	background: rgb(232,182,128);
+	background: radial-gradient(circle, rgba(232,182,128,1) 0%, rgba(170,39,0,1) 100%);
+	border-radius: 0.5em;
+	padding: 0.1em;
+	border-collapse: separate;
+	border-spacing: 0.1em;
+}
+.bingo .header {
+	color: white;
+	background-color: rgba(0,0,0,0);
+	border-collapse: separate;
+	border-spacing: 0.1em;
+}
+
+.bingo .hc {background-color: rgb(255, 128, 0)}
+.bingo .hc + .hc {background-color: rgb(255, 195, 0)}
+.bingo .hc + .hc + .hc {background-color: rgb(115, 190, 50)}
+.bingo .hc + .hc + .hc + .hc {background-color: rgb(0, 160, 210)}
+.bingo .hc + .hc + .hc + .hc + .hc{background-color: rgb(180, 150, 255)}
+.bingo .hc + .hc + .hc + .hc + .hc + .hc{background-color: rgba(0,0,0,0)}
+
+.bingo .hc { 
+	width: 1.2em;
+	height: 1.2em;
+	border-radius: 50%; 
+}
+.bingo .num {
+	width: 1em;
+	height: 1em;
+	border-radius: 10%;
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,250,250,1) 50%, rgba(225,225,225,1) 100%);
+	border: 0.05em solid white;
+}
+.bingo .num, .bingo .hc {
+	margin: 0.1em
+}
